@@ -1,0 +1,17 @@
+#first-heading {
+    color: burlywood;
+    font-size: 36px;
+}
+
+.second-heading {
+    color: chartreuse;
+    font-size: 30px;
+}
+
+:root {
+    --textcolor: violet;
+}
+
+h1 {
+    color: var(--textcolor);
+}
